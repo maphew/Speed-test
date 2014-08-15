@@ -1,0 +1,260 @@
+<?xml version="1.0" ?>
+<XML_DIZ_INFO>
+	<MASTER_PAD_VERSION_INFO>
+		<MASTER_PAD_VERSION>3.11</MASTER_PAD_VERSION>
+		<MASTER_PAD_EDITOR>PADGen 3.1.1.47 http://www.padgen.org</MASTER_PAD_EDITOR>
+		<MASTER_PAD_INFO>Portable Application Description, or PAD for short, is a data set that is used by shareware authors to disseminate information to anyone interested in their software products. To find out more go to http://pad.asp-software.org</MASTER_PAD_INFO>
+	</MASTER_PAD_VERSION_INFO>
+	<Company_Info>
+		<Company_Name>Pixelab</Company_Name>
+		<Address_1>1117 E. Gartner Road</Address_1>
+		<Address_2>Suite 119</Address_2>
+		<City_Town>Naperville</City_Town>
+		<State_Province>IL</State_Province>
+		<Zip_Postal_Code>60540</Zip_Postal_Code>
+		<Country>USA</Country>
+		<Company_WebSite_URL>http://www.xxcopy.com</Company_WebSite_URL>
+		<Contact_Info>
+			<Author_First_Name>Kan</Author_First_Name>
+			<Author_Last_Name>Yabumoto</Author_Last_Name>
+			<Author_Email>tech@xxcopy.com</Author_Email>
+			<Contact_First_Name>Kan</Contact_First_Name>
+			<Contact_Last_Name>Yabumoto</Contact_Last_Name>
+			<Contact_Email>tech@xxcopy.com</Contact_Email>
+		</Contact_Info>
+		<Support_Info>
+			<Sales_Email>sales@xxcopy.com</Sales_Email>
+			<Support_Email>tech@xxcopy.com</Support_Email>
+			<General_Email>tech@xxcopy.com</General_Email>
+			<Sales_Phone>+1-630-369-7112</Sales_Phone>
+			<Support_Phone>+1-630-369-7112</Support_Phone>
+			<General_Phone>+1-630-369-7112</General_Phone>
+			<Fax_Phone>+1-206-600-5937</Fax_Phone>
+		</Support_Info>
+	</Company_Info>
+	<Program_Info>
+		<Program_Name>XXCOPY</Program_Name>
+		<Program_Version>3.11.6</Program_Version>
+		<Program_Release_Month>01</Program_Release_Month>
+		<Program_Release_Day>03</Program_Release_Day>
+		<Program_Release_Year>2013</Program_Release_Year>
+		<Program_Cost_Dollars>0</Program_Cost_Dollars>
+		<Program_Cost_Other_Code />
+		<Program_Cost_Other />
+		<Program_Type>Freeware</Program_Type>
+		<Program_Release_Status>Major Update</Program_Release_Status>
+		<Program_Install_Support>Install and Uninstall</Program_Install_Support>
+		<Program_OS_Support>MS-DOS,Win2000,Win7 x32,Win7 x64,Win98,WinServer,WinVista,WinVista x64,WinXP</Program_OS_Support>
+		<Program_Language>English</Program_Language>
+		<Program_Change_Info>Support for x64 Windows, preserving reparse points</Program_Change_Info>
+		<Program_Specific_Category>Utilities</Program_Specific_Category>
+		<Program_Category_Class>System Utilities::File &amp; Disk Management</Program_Category_Class>
+		<Program_System_Requirements>Nothing special</Program_System_Requirements>
+		<File_Info>
+			<File_Size_Bytes>3017068</File_Size_Bytes>
+			<File_Size_K>2947</File_Size_K>
+			<File_Size_MB>2.88</File_Size_MB>
+		</File_Info>
+		<Expire_Info>
+			<Has_Expire_Info>N</Has_Expire_Info>
+			<Expire_Count />
+			<Expire_Based_On>Days</Expire_Based_On>
+			<Expire_Other_Info />
+			<Expire_Month />
+			<Expire_Day />
+			<Expire_Year />
+		</Expire_Info>
+	</Program_Info>
+	<Program_Descriptions>
+		<English>
+			<Keywords>XCOPY, Robocopy, file, directory, backup, synchronization, copy, delete, list, search, clone, exclude, incremental backup, archive, file management, migration, deployment, reparse point, symbolic link</Keywords>
+			<Char_Desc_45>An extended XCOPY, for all IT professionals</Char_Desc_45>
+			<Char_Desc_80>A versatile file management tool, using XCOPY compatible command syntax</Char_Desc_80>
+			<Char_Desc_250>XXCOPY is a powerful superset of XCOPY using the same syntax. It can copy, remove, search, and list files/directories. Can clone a bootable drive. An extremely able batch enhancer.</Char_Desc_250>
+			<Char_Desc_450>XXCOPY is a boldly extended XCOPY using the same command syntax. It performs file-copy, delete, search and many common file management operations. It can select files and directories by the date, age, and size, as well as the comparison between the source and destination directories. It accepts wildcards in any place and with any number in the source specifier. Its ability to preserve the SFN makes it ideal for volume cloning.</Char_Desc_450>
+			<Char_Desc_2000>XXCOPY is simply a logical extension to XCOPY. It remains faithfully compatible with XCOPY in the invocation syntax, yet, adds many innovative features to be a very serious utility for anyone who feels comfortable in managing files in command line mode (DOS Box). XXCOPY has grown to be not just a file copy program but also file removal, search and list utility. Its short-name preserving capability makes it ideal to clone a system disk which can be made bootable. XXCOPY runs under Windows 2K/XP/Vista/Win7/Win8/2008 and comes with 32-bit and 64-bit versions of XXCOPY. You may also use it for synchronizing systems. In short, it is an industrial strength utility for system administrators.</Char_Desc_2000>
+		</English>
+	</Program_Descriptions>
+	<Web_Info>
+		<Application_URLs>
+			<Application_Info_URL>http://www.xxcopy.com</Application_Info_URL>
+			<Application_Order_URL>http://www.xxcopy.com/xcpyordr.htm</Application_Order_URL>
+			<Application_Screenshot_URL>http://www.xxcopy.com/img/xcpysnap8c.png</Application_Screenshot_URL>
+			<Application_Icon_URL>http://www.xxcopy.com/img/xxicon3.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://www.xxcopy.com/xcpy_pad.xml</Application_XML_File_URL>
+		</Application_URLs>
+		<Download_URLs>
+			<Primary_Download_URL>http://www.xxcopy.com/download/xxfw3116.zip</Primary_Download_URL>
+			<Secondary_Download_URL>http://www.xxcopy.com/download/xxcopy.zip</Secondary_Download_URL>
+			<Additional_Download_URL_1>http://www.pixelab.com/download/xxcopy.zip</Additional_Download_URL_1>
+			<Additional_Download_URL_2>http://www.pixelab.com/download/xxfw3116.zip</Additional_Download_URL_2>
+		</Download_URLs>
+	</Web_Info>
+	<Permissions>
+		<Distribution_Permissions>You may include this package on any CD compilation and distribute it
+as long as a copy of the CD is submitted to Pixelab, free of charge.
+
+You are not allowed any modification to the XXCOPY package and
+the distributed package must remain as a whole.
+
+If you distribute a software package that includes the XXCOPY package
+as a component, you may charge a nominal fee for your service and/or
+the product for the distribution.  But the price must not include a
+charge which represents the value for the XXCOPY software itself.
+</Distribution_Permissions>
+		<EULA>* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  X X C O P Y   F r e e w a r e   L i c e n s e   T e r m s
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Pixelab, Inc, the copyright owner of the XXCOPY software package,
+grants a non-exclusive license without charge to you, an individual
+who intends to use the XXCOPY program for non-commercial purposes
+provided that all of the following additional conditions are met.
+
+You may use XXCOPY under this freeware license if:
+
+ 1.  You install the XXCOPY program on a computer that is your own
+     personal property and you are the primary user of the computer.
+
+ 2.  If you transfer files between networked computers using XXCOPY,
+     all of the computers are also your own personal property.
+
+ 3.  Or, even if the above conditions are not met, you may still use
+     XXCOPY for 60 days for evaluation purposes without charge.
+
+
+If your situation does not qualify for the freeware license,
+the usage of XXCOPY will be considered as a commercial usage.
+Please contact Pixelab that offers various types of licenses.
+
+This freeware version of XXCOPY is distributed AS IS and without
+any warranties.  If you have problems, our liability is limited
+to $1.00 per site, that is much more than you paid for it.
+
+XXCOPY is a trademark of Pixelab.
+
+With the freeware license, you may give your friends a copy of the
+XXCOPY Freeware, as long as the package is not altered and remains
+as a whole.  However, for distribution on a commercial basis,
+(even in a Freeware distribution CD-ROM, or download service),
+you must obtain a written permission from Pixelab.
+
+Please note that Emails from freeware users may not be answered due
+to the large number of Emails we receive.  If you wish to receive
+technical support by Email, you may consider acquiring a single user
+license even if your usage complies with the freeware license terms.
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+</EULA>
+	</Permissions>
+	<Affiliates>
+		<Affiliates_FORM>Y</Affiliates_FORM>
+		<Affiliates_VERSION>1.4</Affiliates_VERSION>
+		<Affiliates_URL>http://pad.asp-software.org/extensions/Affiliates.htm</Affiliates_URL>
+		<Affiliates_Information_Page />
+		<Affiliates_Avangate_Order_Page />
+		<Affiliates_Avangate_Vendor_ID />
+		<Affiliates_Avangate_Product_ID />
+		<Affiliates_Avangate_Maximum_Commission_Rate />
+		<Affiliates_BMTMicro_Order_Page />
+		<Affiliates_BMTMicro_Vendor_ID />
+		<Affiliates_BMTMicro_Product_ID />
+		<Affiliates_BMTMicro_Maximum_Commission_Rate />
+		<Affiliates_Cleverbridge_Order_Page />
+		<Affiliates_Cleverbridge_Vendor_ID />
+		<Affiliates_Cleverbridge_Product_ID />
+		<Affiliates_Cleverbridge_Maximum_Commission_Rate />
+		<Affiliates_clixGalore_Order_Page />
+		<Affiliates_clixGalore_Vendor_ID />
+		<Affiliates_clixGalore_Product_ID />
+		<Affiliates_clixGalore_Maximum_Commission_Rate />
+		<Affiliates_CommissionJunction_Order_Page />
+		<Affiliates_CommissionJunction_Vendor_ID />
+		<Affiliates_CommissionJunction_Product_ID />
+		<Affiliates_CommissionJunction_Maximum_Commission_Rate />
+		<Affiliates_DigiBuy_Order_Page />
+		<Affiliates_DigiBuy_Vendor_ID />
+		<Affiliates_DigiBuy_Product_ID />
+		<Affiliates_DigiBuy_Maximum_Commission_Rate />
+		<Affiliates_DigitalCandle_Order_Page />
+		<Affiliates_DigitalCandle_Vendor_ID />
+		<Affiliates_DigitalCandle_Product_ID />
+		<Affiliates_DigitalCandle_Maximum_Commission_Rate />
+		<Affiliates_Emetrix_Order_Page />
+		<Affiliates_Emetrix_Vendor_ID />
+		<Affiliates_Emetrix_Product_ID />
+		<Affiliates_Emetrix_Maximum_Commission_Rate />
+		<Affiliates_eSellerate_Order_Page />
+		<Affiliates_eSellerate_Vendor_ID />
+		<Affiliates_eSellerate_Product_ID />
+		<Affiliates_eSellerate_Maximum_Commission_Rate />
+		<Affiliates_Kagi_Order_Page />
+		<Affiliates_Kagi_Vendor_ID />
+		<Affiliates_Kagi_Product_ID />
+		<Affiliates_Kagi_Maximum_Commission_Rate />
+		<Affiliates_LinkShare_Order_Page />
+		<Affiliates_LinkShare_Vendor_ID />
+		<Affiliates_LinkShare_Product_ID />
+		<Affiliates_LinkShare_Maximum_Commission_Rate />
+		<Affiliates_NorthStarSol_Order_Page />
+		<Affiliates_NorthStarSol_Vendor_ID />
+		<Affiliates_NorthStarSol_Product_ID />
+		<Affiliates_NorthStarSol_Maximum_Commission_Rate />
+		<Affiliates_OneNetworkDirect_Order_Page />
+		<Affiliates_OneNetworkDirect_Vendor_ID />
+		<Affiliates_OneNetworkDirect_Product_ID />
+		<Affiliates_OneNetworkDirect_Maximum_Commission_Rate />
+		<Affiliates_Order1_Order_Page />
+		<Affiliates_Order1_Vendor_ID />
+		<Affiliates_Order1_Product_ID />
+		<Affiliates_Order1_Maximum_Commission_Rate />
+		<Affiliates_Osolis_Order_Page />
+		<Affiliates_Osolis_Vendor_ID />
+		<Affiliates_Osolis_Product_ID />
+		<Affiliates_Osolis_Maximum_Commission_Rate />
+		<Affiliates_Plimus_Order_Page />
+		<Affiliates_Plimus_Vendor_ID />
+		<Affiliates_Plimus_Product_ID />
+		<Affiliates_Plimus_Maximum_Commission_Rate />
+		<Affiliates_Regnet_Order_Page />
+		<Affiliates_Regnet_Vendor_ID />
+		<Affiliates_Regnet_Product_ID />
+		<Affiliates_Regnet_Maximum_Commission_Rate />
+		<Affiliates_Regnow_Order_Page />
+		<Affiliates_Regnow_Vendor_ID />
+		<Affiliates_Regnow_Product_ID />
+		<Affiliates_Regnow_Maximum_Commission_Rate />
+		<Affiliates_Regsoft_Order_Page />
+		<Affiliates_Regsoft_Vendor_ID />
+		<Affiliates_Regsoft_Product_ID />
+		<Affiliates_Regsoft_Maximum_Commission_Rate />
+		<Affiliates_ShareIt_Order_Page />
+		<Affiliates_ShareIt_Vendor_ID />
+		<Affiliates_ShareIt_Product_ID />
+		<Affiliates_ShareIt_Maximum_Commission_Rate />
+		<Affiliates_Shareasale_Order_Page />
+		<Affiliates_Shareasale_Vendor_ID />
+		<Affiliates_Shareasale_Product_ID />
+		<Affiliates_Shareasale_Maximum_Commission_Rate />
+		<Affiliates_SWReg_Order_Page />
+		<Affiliates_SWReg_Vendor_ID />
+		<Affiliates_SWReg_Product_ID />
+		<Affiliates_SWReg_Maximum_Commission_Rate />
+		<Affiliates_V-Share_Order_Page />
+		<Affiliates_V-Share_Vendor_ID />
+		<Affiliates_V-Share_Product_ID />
+		<Affiliates_V-Share_Maximum_Commission_Rate />
+		<Affiliates_VFree_Order_Page />
+		<Affiliates_VFree_Vendor_ID />
+		<Affiliates_VFree_Product_ID />
+		<Affiliates_VFree_Maximum_Commission_Rate />
+		<Affiliates_Yaskifo_Order_Page />
+		<Affiliates_Yaskifo_Vendor_ID />
+		<Affiliates_Yaskifo_Product_ID />
+		<Affiliates_Yaskifo_Maximum_Commission_Rate />
+	</Affiliates>
+	<ASP>
+		<ASP_FORM>Y</ASP_FORM>
+		<ASP_Member>N</ASP_Member>
+		<ASP_Member_Number />
+	</ASP>
+</XML_DIZ_INFO>
