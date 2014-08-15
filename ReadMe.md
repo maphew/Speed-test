@@ -15,20 +15,27 @@ Developed and tested on Windows XP & 7 Pro, 64bit, with command extensions enabl
 
 This test suite may be freely modified and shared. Please don't use the data (`.\source`) for anything other than benchmarking (there's much better stuff available for free).
 
+Primary web page: https://github.com/maphew/Speed-test
+Secondary (may not be as up to date): http://goo.gl/skKdq5
+
 (c) Copyright 2014 Environment Yukon
 License: MIT/X (open source)
 Author:  Matt.Wilkie@gov.yk.ca
 
-# Setup and Use
+# Setup
 
-## Just do it
+1. From [home page](https://github.com/maphew/Speed-test) *Download Zip* (right hand navigation menu, ~5mb) and unpack somewhere, e.g. `D:\speed-test`
 
-1. Copy everything here to somewhere on your machine, e.g. `d:\speed-test`
-2. Unzip copy-test-files.zip to `d:\speed-test\source` 
-3. Open a command shell and run speed-test, `speed-test go local2local %temp%`
+2. Download copy-test-files.zip (800mb) from http://goo.gl/5gyfrP, unpack to `d:\speed-test\source`
 
 
-## Setup and use explained
+# Usage
+
+Open a command shell and run speed-test:
+
+    speed-test go local2local %temp%
+
+## Usage explained
 Copy the speed-test folder and all contents to the machine/device you want to use for your source (copy-from place).
 
 Unpack the copy-test-files.zip archive to the place you want to read from (default is adjacent to the batch file, `speed-test\source\`) 
@@ -46,7 +53,7 @@ Open a command shell in there and run the batch file (repeat at least twice more
 **{statistics path}** optional. The folder where log files of the copy operation will be saved. If unspecified it defaults to `%location of speed-test.bat%\source`
  
 
-### Examples 
+## Examples 
 
 From local machine to a server share:
 
@@ -67,8 +74,12 @@ From read-only local optical disc to local usb device, storing logs & stats on a
 
 Run with incomplete parameters for some additional usage info.
 
+# File and Folder structure
 
 ## `.\source` - files used for copy tests
+
+If you got speed-test from GitHub, you'll still need to fetch the [copy-test-files.zip](https://drive.google.com/folderview?id=0B56GxmszgM49RVJ5TFlVUFR1aVk&usp=sharing) (800mb) and unpack somewhere (suggested is adjacent to speed-test.bat in `.\source`).
+
 
 **little_files**: a whack load of itty bitty files: 24,344 totalling 641,411,602 bytes, most less than 1kb each.
 
