@@ -6,7 +6,7 @@ There are 3 basic tests, consisting of: copy the set and record how long the ope
 
 1. **little files** - tens of thousands of tiny files
 
-2. **differential little** - delete a substantial portion of the little files, compare source and target folders, then copy only those files which are missing.
+2. **differential little** - delete a substantial portion of the little files (200mb) in a distributed pattern (from all over the place, not just one or two folders), compare source and target folders, then copy only those files which are missing.
 
 3. **big file** - copy a single large file
 
