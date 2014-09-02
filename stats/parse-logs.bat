@@ -13,7 +13,10 @@ for %%a in (%log%) do set field_values=%%~ta
 
 set no=0
 
-set cmd=grep -A100 "Source base directory" %log%
+rem set cmd=grep -A100 "Source base directory" %log%
+set cmd=grep -A12 "Source base directory" %log%
+rem set cmd=findstr "Source base directory" %log%
+
 
 for /f "tokens=1-2 delims==" %%a in ('%cmd%') do (
   set title=%%a
