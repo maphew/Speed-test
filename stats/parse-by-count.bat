@@ -13,6 +13,9 @@ set logfile=%1
 if not exist scratch mkdir scratch
 
 for /f "delims=;" %%a in (field_names.txt) do call :Get_Field_Values "%%a"
+start scratch
+
+call :Build_CSV
 
 goto :eof
 
@@ -20,7 +23,13 @@ goto :eof
 
 :Get_Field_Values
     findstr /C:%1 %logfile% > scratch\%1.txt
+    :: TODO: change so only capture values (stuff to right of `=`)
     goto :eof
+
+:Build_CSV
+    echo.   +++ Build_CSV not yet implemented.
+    goto :eof
+
 
 :Usage
     echo.
