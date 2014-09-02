@@ -1,0 +1,280 @@
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 08:57:56   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 46.17
+ Action speed (MB/min) = 271.2
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:04:03   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 47.05
+ Action speed (MB/min) = 266.2
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:05:11   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 46.82
+ Action speed (MB/min) = 267.5
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:06:18   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 47.16
+ Action speed (MB/min) = 265.6
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:07:26   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 47.31
+ Action speed (MB/min) = 264.7
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:08:34   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 47.03
+ Action speed (MB/min) = 266.3
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:09:42   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 47.39
+ Action speed (MB/min) = 264.3
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:10:50   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB0 /PBH /PC0 /PD0 /PN
+ /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 50.14
+ Action speed (MB/min) = 249.8
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:11:49   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files f:\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB0 /PBH /PC0 /PD0 /PN
+ /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "F:\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 47.25
+ Action speed (MB/min) = 265.1
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 09:48:39   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB0 /PBH /PC0 /PD0 /PN
+ /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 523,373,707
+ Elapsed time in sec.  = 1,113 (18 min 33 sec)
+ Action speed (MB/min) = 28.2
+ Files examined        = 24,344
+ Files copied          = 13,085
+ Directories created   = 745
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2loc-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+

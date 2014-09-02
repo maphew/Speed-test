@@ -1,0 +1,335 @@
+﻿﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-14 12:44:38   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,271
+ Total data in bytes   = 307,290,194
+ Elapsed time in sec.  = 1,471 (24 min 31 sec)
+ Action speed (MB/min) = 12.53
+ Files copied          = 22,274
+ Directories created   = 1,270
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-14 13:30:32   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,271
+ Total data in bytes   = 307,287,586
+ Elapsed time in sec.  = 1,698 (28 min 18 sec)
+ Action speed (MB/min) = 10.86
+ Files examined        = 22,274
+ Files copied          = 22,270
+ Directories created   = 1,265
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 12:20:57   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,897 (31 min 37 sec)
+ Action speed (MB/min) = 20.28
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 13:21:06   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,880 (31 min 20 sec)
+ Action speed (MB/min) = 20.46
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 14:22:46   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,880 (31 min 20 sec)
+ Action speed (MB/min) = 20.47
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 15:24:07   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,877 (31 min 17 sec)
+ Action speed (MB/min) = 20.49
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 16:22:17   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,751 (29 min 11 sec)
+ Action speed (MB/min) = 21.98
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 17:18:39   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,693 (28 min 13 sec)
+ Action speed (MB/min) = 22.73
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 18:16:25   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,670 (27 min 50 sec)
+ Action speed (MB/min) = 23.04
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 19:13:52   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,655 (27 min 35 sec)
+ Action speed (MB/min) = 23.25
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 20:09:48   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,703 (28 min 23 sec)
+ Action speed (MB/min) = 22.6
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 21:05:52   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 641,406,690
+ Elapsed time in sec.  = 1,580 (26 min 20 sec)
+ Action speed (MB/min) = 24.34
+ Files examined        = 24,344
+ Files copied          = 24,339
+ Directories created   = 1,485
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2dshare_straight-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+

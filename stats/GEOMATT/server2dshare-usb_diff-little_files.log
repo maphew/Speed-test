@@ -1,0 +1,289 @@
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:11:06   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  =   225 (3 min 44 sec)
+ Action speed (MB/min) = 55.67
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:17:38   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 222.3 (3 min 42 sec)
+ Action speed (MB/min) = 56.35
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:24:07   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 223.5 (3 min 43 sec)
+ Action speed (MB/min) = 56.03
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:30:37   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 223.7 (3 min 43 sec)
+ Action speed (MB/min) = 55.99
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:37:06   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 221.4 (3 min 41 sec)
+ Action speed (MB/min) = 56.57
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:43:35   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB1M /PBH /PC0 /PD0
+ /PN /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0007.nit              Copy failed
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0008.dat              Copy failed
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0008.nit              Copy failed
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0010.nit              Copy failed
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0013.nit              Copy failed
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0016.nit              Copy failed
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0018.dat              Copy failed
+K:\Software\Speed-test\source\little_files\arcdata_old\250k\base\116h\info\arc0018.nit                Disk Full
+ Directories processed = 876
+ Total data in bytes   = 163,731,914
+ Elapsed time in sec.  = 320.5 (5 min 20 sec)
+ Action speed (MB/min) = 30.65
+ Files examined        = 14,142
+ Files copied          = 386
+ Directories created   = 53
+ Files copy failed     = 8
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 44 (Disk Full)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:52:10   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB0 /PBH /PC0 /PD0 /PN
+ /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 236.3 (3 min 56 sec)
+ Action speed (MB/min) = 52.99
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 10:57:31   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB0 /PBH /PC0 /PD0 /PN
+ /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 223.2 (3 min 43 sec)
+ Action speed (MB/min) = 56.11
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 11:02:33   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB0 /PBH /PC0 /PD0 /PN
+ /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 225.9 (3 min 45 sec)
+ Action speed (MB/min) = 55.44
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
+﻿
+===============================================================================
+XXCOPY ver 2.97.5   2008-10-15 11:07:38   Windows Ver 5.2.3790 Service Pack 2
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb K:\Software\Speed-test\source\little_files \\droboshare\drobo\speed-test\little_files /oaK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+-------------------------------------------------------------------------------
+Switch Parameters
+ /A0 /BI /C /CA7 /CB0 /CCY /CK /CR3 /CD0 /D0 /DL0 /E /EC0 /ED0 /ER0 /F0 /FM0
+ /FF2S /FL /FR /FW /H /I /IN* /JV0 /KS /KCDP /KCFP /L0 /N0 /NC0 /NI0 /NP0 /NW
+ /NX0
+ /oAK:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ /oB2 /oC0 /oD0 /oE0 /oF0 /oI0 /oP0 /oQ0 /oS0 /oX0 /P0 /PB0 /PBH /PC0 /PD0 /PN
+ /Po0 /PP /PW0 /PZ0 /Q1 /QF0 /QB0 /QS0 /R /RS0 /S /SC0 /SHR /SP0 /SG0 /So1
+ /SW0 /SX0 /SZ:- /T0 /TR00 /TS0 /TD0 /TTA0 /TCA0 /TCC0 /TCW /TM0 /U0 /UT0 /V1
+ /VL0 /W0 /WD /WL /WN0 /WU0 /Y /YY /ZB1G /ZE /ZS0 /ZX /ZY
+-------------------------------------------------------------------------------
+ Source base directory = "K:\Software\Speed-test\source\little_files\"
+ Destination directory = "\\droboshare\drobo\speed-test\little_files\"
+ File name template    = "*"
+ Directories processed = 1,491
+ Total data in bytes   = 208,731,021
+ Elapsed time in sec.  = 221.1 (3 min 41 sec)
+ Action speed (MB/min) = 56.65
+ Files examined        = 24,344
+ Files copied          = 532
+ Directories created   = 76
+ Log File Appended     = K:\Software\Speed-test\stats\GEOMATT\server2drobo-usb_diff-little_files.log
+ Exit code             = 0 (No error, Successful operation)
+
