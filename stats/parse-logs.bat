@@ -4,7 +4,8 @@
 setlocal enabledelayedexpansion
 
 :: change the following to suit your own log file name
-set log=d:\xxcopy.log
+rem set log=d:\xxcopy.log
+set log=%1
 
 set field_titles=log file date/time
 
