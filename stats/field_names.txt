@@ -1,0 +1,13 @@
+Command Line
+Source base directory
+Destination directory
+File name template
+Directories Processed
+Total Data in Bytes
+Elapsed time in sec.
+Action speed
+Files Copied
+Files Zapped
+Bytes Zapped
+Log File Appended
+Exit code

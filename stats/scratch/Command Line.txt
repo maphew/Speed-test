@@ -1,0 +1,10 @@
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
+ Command Line  = xxcopy /yy /of0 /clone /ff /pb X:\Software\Speed-test\source\little_files R:\speed-test\little_files /oaX:\Software\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log
