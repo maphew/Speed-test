@@ -12,7 +12,8 @@ if not exist "%1" goto :Usage
 set logfile=%1
 if not exist scratch mkdir scratch
 
-for /f "delims=;" %%a in (field_names.txt) do call :Get_Field_Values "%%a"
+rem for /f "delims=;" %%a in (field_names.txt) do call :Get_Field_Values "%%a"
+for /f "delims=;" %%a in (field_names.txt) do call :by_equals
 start scratch
 
 call :Build_CSV
@@ -24,6 +25,12 @@ goto :eof
 :Get_Field_Values
     findstr /C:%1 %logfile% > scratch\%1.txt
     :: TODO: change so only capture values (stuff to right of `=`)
+    goto :eof
+
+:by_equals
+    for /f "tokens=1,2 delims==" %%a in ('findstr /c:"=" "%logfile%"') do (
+        @echo %%b >> "scratch\%%a.txt"
+        )
     goto :eof
 
 :Build_CSV
