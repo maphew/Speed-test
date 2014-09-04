@@ -7,5 +7,5 @@ Get-Content Input_data_colons.txt |     Where{$_ -match "([^:]*):\s*?(\S.*)"}|Fo
     }else{
         $Record | Add-Member $Matches[1] $Matches[2].trim()
     }
-}|?{![string]::IsNullOrEmpty($_)} | Export-Csv Output.csv -NoTypeInformation
-$Record | Export-Csv Output.csv -NoTypeInformation -Append
+}|?{![string]::IsNullOrEmpty($_)} | Export-Csv madtech_parse_output.csv -NoTypeInformation
+$Record | Export-Csv madtech_parse_output.csv -NoTypeInformation -Append
