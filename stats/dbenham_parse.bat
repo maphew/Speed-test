@@ -1,9 +1,9 @@
-REM dbenham: http://stackoverflow.com/a/25657306/14420 
 @echo OFF
+:: Thank you dbenham: http://stackoverflow.com/a/25657306/14420 
 setlocal enableDelayedExpansion
 
-set "input=input_data.txt"
-set "output=%~n0_result.csv"
+set "input=%1"
+set "output=%~n1_stats.csv"
 
 set "row="
 set "header="
