@@ -8,7 +8,10 @@ if "%1"=="" goto :Usage
 set "input=%1"
 set "output=%~n1_stats.csv"
 
+call :Main
+goto :eof
 
+:: ---------- Sub-routines ----------
 :Main
   set "row="
   set "header="
@@ -34,7 +37,6 @@ set "output=%~n1_stats.csv"
   )>"%output%"
   echo. --- "%input%" stats saved to "%output%"
   goto :eof
-
 
 :Usage
   echo.
