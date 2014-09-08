@@ -4,6 +4,8 @@
 ::
 :: Debugging: uncomment lower case "rem" lines
 ::
+:: TODO: figure out how to extract date stamp from "XXCOPy ver ..." line
+::
 setlocal enableDelayedExpansion
 
 if "%1"=="" goto :Usage
