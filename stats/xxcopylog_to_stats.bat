@@ -4,7 +4,7 @@
 ::
 :: Debugging: uncomment lower case "rem" lines
 ::
-:: TODO: figure out how to extract date stamp from "XXCOPy ver ..." line
+:: TODO: figure out how to extract date stamp from "XXCOPY ver ..." line
 ::
 setlocal enableDelayedExpansion
 
@@ -24,6 +24,7 @@ goto :eof
   set "first="
   (
     for /f "usebackq tokens=1* delims==" %%A in ("%input%") do (
+      call :Get_date %%A %%B
       REM At this point %%A is {before =} and %%B is {after =}
       REM or Field & Value 
       rem echo --FIELD: %%A
@@ -69,13 +70,41 @@ goto :eof
     rem echo --DATA-RAW  : !row!
     rem echo --DATA-STRIP: !row:~1!
     echo !row:~1!
-  
-  REM to debug: uncomment 1st line and comment 2nd
-  REM (prints to console instead of file)
-  )
-  rem )>"%output%"
+  )>"%output%"
+
+  REM to debug: uncomment next (prints to console)
+  type "%output%"
   
   echo. --- "%input%" stats saved to "%output%"
+  goto :eof
+
+:Get_date
+  :: Parse date from xxcopy logfile. Assumes all lines beginning
+  :: "XXCOPY" (case sensitive) follow the format:
+  :: 
+  ::    XXCOPY64 Pro Edition   ver 3.11.4   2013-01-16 17:04:03   Windows Ver 6.1.7601 Service Pack 1
+  :: 
+  ::  beginnning to "ver" == xxcopy edition name 
+  ::  "Windows" to end    == Windows version
+  ::  middle is space delimited == xxcopy_version, date, time
+  ::
+  rem echo. Get_date subroutine stub
+  rem echo ~1~ [%1]
+  rem echo ~2~ [%2]
+  rem echo ~*~ [%*]
+  rem echo %* > %temp%\xxx-%~n0_.txt
+  rem if /f "%1" equ "XXCOPY" 
+
+  for /f "tokens=1* delims= " %%G in ("%*") do (
+    rem echo ~~~ %%G
+    if "%%G" equ "XXCOPY" (
+      set .xxstatus="%*"
+      echo !.xxstatus:*Windows!
+      set .winver=!.xxstatus=*Windows=!
+      set .verdate=!.xxstatus=*ver=!
+      set .
+      )
+    )  
   goto :eof
 
 :Usage
