@@ -24,12 +24,12 @@ goto :eof
   set "first="
   (
     for /f "usebackq tokens=1* delims==" %%A in ("%input%") do (
-      call :Get_date %%A %%B
       REM At this point %%A is {before =} and %%B is {after =}
       REM or Field & Value 
       rem echo --FIELD: %%A
       rem echo --VALUE: %%B
-      
+      call :Get_date %%A
+
       for /f "tokens=*" %%C in ("%%B") do (
           REM %%C is B%% with any leading whitespace stripped 
           REM (an effect of "tokens=*")
@@ -89,24 +89,25 @@ goto :eof
   ::  middle is space delimited == xxcopy_version, date, time
   ::
   rem echo. Get_date subroutine stub
-  rem echo ~1~ [%1]
-  rem echo ~2~ [%2]
-  rem echo ~*~ [%*]
-  rem echo %* > %temp%\xxx-%~n0_.txt
-  rem if /f "%1" equ "XXCOPY" 
+  set line=%*
+  if not "%line:~0,6%" equ "XXCOPY" goto :eof
 
-  for /f "tokens=1* delims= " %%G in ("%*") do (
-    rem echo ~~~ %%G
-    if "%%G" equ "XXCOPY" (
-      set .xxstatus="%*"
-      echo !.xxstatus:*Windows!
-      set .winver=!.xxstatus=*Windows=!
-      set .verdate=!.xxstatus=*ver=!
-      set .
+  rem echo "%line%"
+  rem echo "%line:*Windows=%"
+  set ".winver=Windows%line:*Windows=%"
+  call set .tmp=%%line:%.winver%=%%
+  set ".xxver_date=%.tmp:*ver=%"
+  set .
+
+  for /f "tokens=1-3 delims= " %%A in ("%.xxver_date%") do (
+      echo -- xxcopy version: %%A
+      echo -- date of run   : %%B
+      echo -- time of run   : %%C
       )
-    )  
-  goto :eof
 
+  set line=
+  goto :eof
+   
 :Usage
   echo.
   echo.  Usage:  
