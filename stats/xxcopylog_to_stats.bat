@@ -28,10 +28,11 @@ goto :eof
       REM or Field & Value 
       rem echo --FIELD: %%A
       rem echo --VALUE: %%B
+      
       call :Get_date %%A
 
       for /f "tokens=*" %%C in ("%%B") do (
-          REM %%C is B%% with any leading whitespace stripped 
+          REM %%C is VALUE with any leading whitespace stripped 
           REM (an effect of "tokens=*")
           rem echo --VAL-2: %%C
            
@@ -39,9 +40,9 @@ goto :eof
             REM Emit header row if this is the first time through outer loop
             if not defined first (
               set first=1
-              echo !header:~1!
+              echo !header:~1!,"xxcopy version","date","time"
             )
-            echo !row:~1!
+            echo !row:~1!,"!xxcopy_ver!","!run_date!","!run_time!"
             set "row="
           )
           
@@ -74,9 +75,10 @@ goto :eof
 
   REM to debug: uncomment next (prints to console)
   type "%output%"
-  
+
   echo. --- "%input%" stats saved to "%output%"
   goto :eof
+
 
 :Get_date
   :: Parse date from xxcopy logfile. Assumes all lines beginning
@@ -88,21 +90,24 @@ goto :eof
   ::  "Windows" to end    == Windows version
   ::  middle is space delimited == xxcopy_version, date, time
   ::
+  :::: Adapted from http://ss64.com/nt/syntax-replace.html
+  ::
   rem echo. Get_date subroutine stub
   set line=%*
   if not "%line:~0,6%" equ "XXCOPY" goto :eof
 
-  rem echo "%line%"
-  rem echo "%line:*Windows=%"
   set ".winver=Windows%line:*Windows=%"
   call set .tmp=%%line:%.winver%=%%
   set ".xxver_date=%.tmp:*ver=%"
-  set .
+  rem set .
 
   for /f "tokens=1-3 delims= " %%A in ("%.xxver_date%") do (
-      echo -- xxcopy version: %%A
-      echo -- date of run   : %%B
-      echo -- time of run   : %%C
+      rem echo -- xxcopy version: %%A
+      rem echo -- date of run   : %%B
+      rem echo -- time of run   : %%C
+      set xxcopy_ver=%%A
+      set run_date=%%B
+      set run_time=%%C
       )
 
   set line=
