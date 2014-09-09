@@ -4,8 +4,6 @@
 ::
 :: Debugging: uncomment lower case "rem" lines
 ::
-:: TODO: figure out how to extract date stamp from "XXCOPY ver ..." line
-::
 setlocal enableDelayedExpansion
 
 if "%1"=="" goto :Usage
@@ -22,8 +20,14 @@ goto :eof
   set "header="
   set "begin="
   set "first="
+  set /a "count=0"
   (
     for /f "usebackq tokens=1* delims==" %%A in ("%input%") do (
+      REM These line numbers should match logfile. If not, something is
+      REM wrong.
+      set /a "count+=1"
+      echo Line# !count!: "%%A"
+
       REM At this point %%A is {before =} and %%B is {after =}
       REM or Field & Value 
       rem echo --FIELD: %%A
@@ -96,15 +100,18 @@ goto :eof
   set line=%*
   if not "%line:~0,6%" equ "XXCOPY" goto :eof
 
+  REM Get substring from "Windows" to end of line 
   set ".winver=Windows%line:*Windows=%"
+  
+  REM remove Windows substring from input line
   call set .tmp=%%line:%.winver%=%%
+  
+  REM Get substring beginning of line to first "ver" from temp string
   set ".xxver_date=%.tmp:*ver=%"
-  rem set .
+  set .
 
+  REM Parse the remaining middle bit
   for /f "tokens=1-3 delims= " %%A in ("%.xxver_date%") do (
-      rem echo -- xxcopy version: %%A
-      rem echo -- date of run   : %%B
-      rem echo -- time of run   : %%C
       set xxcopy_ver=%%A
       set run_date=%%B
       set run_time=%%C
