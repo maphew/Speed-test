@@ -26,7 +26,8 @@ goto :eof
       REM These line numbers should match logfile. If not, something is
       REM wrong.
       set /a "count+=1"
-      echo Line# !count!: "%%A"
+      rem echo Loop# !count!: "%%A" >> debug-loop-count.txt
+      rem echo Loop# !count!: "%%A"
 
       REM At this point %%A is {before =} and %%B is {after =}
       REM or Field & Value 
@@ -34,6 +35,7 @@ goto :eof
       rem echo --VALUE: %%B
       
       call :Get_date %%A
+      rem echo ~~~ "!xxcopy_ver!","!run_date!","!run_time!"
 
       for /f "tokens=*" %%C in ("%%B") do (
           REM %%C is VALUE with any leading whitespace stripped 
@@ -46,11 +48,18 @@ goto :eof
               set first=1
               echo !header:~1!,"xxcopy version","date","time"
             )
-            echo !row:~1!,"!xxcopy_ver!","!run_date!","!run_time!"
+            REM BUG: with xxcopy_ver etc. these 3 values are out by one,
+            REM the first one gets swallowed ...cont'd:
+            rem echo !row:~1!,"!xxcopy_ver!","!run_date!","!run_time!"
+            echo !row:~1!
             set "row="
           )
           
+          REM BUG: ...while here the 3 values are in the right row, but
+          REM they interperse with other columns, duplicated many times
+          REM
           REM This adds leading comma on 1st loop run 
+          rem set "row=!row!,"%%C","!xxcopy_ver!","!run_date!","!run_time!""
           set "row=!row!,"%%C""
 
           REM On first loop...
@@ -99,6 +108,9 @@ goto :eof
   rem echo. Get_date subroutine stub
   set line=%*
   if not "%line:~0,6%" equ "XXCOPY" goto :eof
+  set xxcopy_ver=
+  set run_date=
+  set run_time=
 
   REM Get substring from "Windows" to end of line 
   set ".winver=Windows%line:*Windows=%"
@@ -108,7 +120,7 @@ goto :eof
   
   REM Get substring beginning of line to first "ver" from temp string
   set ".xxver_date=%.tmp:*ver=%"
-  set .
+  rem set .
 
   REM Parse the remaining middle bit
   for /f "tokens=1-3 delims= " %%A in ("%.xxver_date%") do (
