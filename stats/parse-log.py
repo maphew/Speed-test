@@ -147,19 +147,28 @@ def main():
         print(d.keys())
         print(d['time'])
 
-def main2(text):
+def main2(pruned_text):
+    """ Parse text list containing only data elements into field,value pairs,
+        then write out to csv.
+    """
     d = {}
-    for line in text:
+    for line in pruned_text:
         if line.startswith('==='):
+            # when dict is not empty, we've already looped at least once
+            # so write out results from previous run before carrying on
             if d:
                 print(d['time'])
                 write_csv(d, csvfile)
+                d = {} # ensure no old data is carried forward
 
         elif line[0:6] == 'XXCOPY':
             parse_xxcopy_line(line, d)
             print (line)
+
         elif line:
             parse_field(line, d)
+
+    # ...and now write out results from the hindmost loop run
     if d:
         print(d['time'],d['Exit code'])
         write_csv(d, csvfile)
