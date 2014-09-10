@@ -72,12 +72,14 @@ def write_csv(dic, csvfile):
     f = open(csvfile, 'w')
     print("in csv writer DIC %s" % dic['time'])
     print("in csv writer D %s" % d['time'])
-    fieldnames = sorted(dic.keys())
-    writer = csv.DictWriter(f, fieldnames=fieldnames)
-    headers = dict( (n,n) for n in fieldnames )
-    writer.writerow(headers)
-    writer.writerow(dic)
-    f.close()
+    try:
+        fieldnames = sorted(dic.keys())
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        headers = dict( (n,n) for n in fieldnames )
+        writer.writerow(headers)
+        writer.writerow(dic)
+    finally:
+        f.close()
 
 if __name__ == '__main__':
 ##    main()
