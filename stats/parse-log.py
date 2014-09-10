@@ -150,6 +150,8 @@ if __name__ == '__main__':
     d = {}
     for line in text:
         if line.startswith('==='):
+            if d:
+                print(d['time'])
 ##            print(line)
             pass
         elif line[0:6] == 'XXCOPY':
@@ -159,4 +161,4 @@ if __name__ == '__main__':
             parse_field(line, d)
 ##            print(line)
 
-    print(d)
+##    print(d)
