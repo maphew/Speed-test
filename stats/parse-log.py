@@ -106,10 +106,17 @@ def parse_field(line, d):
     return d
 
 def write_csv(dic, csvfile):
-    # Adapted from http://pymotw.com/2/csv/
+    """ Append a dictionary to a CSV file.
+
+        In it's current state this duplicates header rows. Probable solution is
+        to read the existing csv first, append new data, then write all at once.
+
+        Adapted from http://pymotw.com/2/csv/
+    """
+
     f = open(csvfile, 'ab')
-    print("in csv writer DIC %s" % dic['time'])
-    print("in csv writer D %s" % d['time'])
+    print("in csv writer DIC (local) %s" % dic['time'])
+    print("in csv writer D (global) %s" % d['time'])
     try:
         fieldnames = sorted(dic.keys())
         writer = csv.DictWriter(f, fieldnames=fieldnames)
