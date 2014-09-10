@@ -153,12 +153,15 @@ if __name__ == '__main__':
             if d:
                 print(d['time'])
 ##            print(line)
-            pass
+
         elif line[0:6] == 'XXCOPY':
             parse_xxcopy_line(line, d)
-##            print (line)
+            print (line)
         elif line:
             parse_field(line, d)
-##            print(line)
+
+    if d:
+        print(d['time'],d['Exit code'])
 
 ##    print(d)
+##    print(text)
