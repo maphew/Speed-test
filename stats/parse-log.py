@@ -10,8 +10,9 @@
 #-------------------------------------------------------------------------------
 #!/usr/bin/env python
 import csv
-import sys
 import re
+import sys
+import os
 
 def prune_lines(infile):
     """ Discard all lines which don't have the data we're after
@@ -69,8 +70,8 @@ def write_csv(dic, csvfile):
     """
 
     f = open(csvfile, 'ab')
-    print("in csv writer DIC (local) %s" % dic['time'])
-    print("in csv writer D (global) %s" % d['time'])
+##    print("in csv writer DIC (local) %s" % dic['time'])
+##    print("in csv writer D (global) %s" % d['time'])
     try:
         fieldnames = sorted(dic.keys())
         writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -107,9 +108,12 @@ def main(pruned_text):
         write_csv(d, csvfile)
 
 if __name__ == '__main__':
+    infile = sys.argv[1]
+    csvfile = os.path.join(infile + '.csv')
+    print(csvfile)
 
-    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
-    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
+##    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
+##    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
     text = prune_lines(infile)
     result = main(text)
     print(result)
