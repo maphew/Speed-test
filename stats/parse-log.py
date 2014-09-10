@@ -107,7 +107,7 @@ def parse_field(line, d):
 
 def write_csv(dic, csvfile):
     # Adapted from http://pymotw.com/2/csv/
-    f = open(csvfile, 'w')
+    f = open(csvfile, 'ab')
     print("in csv writer DIC %s" % dic['time'])
     print("in csv writer D %s" % d['time'])
     try:
@@ -140,28 +140,28 @@ def main():
         print(d.keys())
         print(d['time'])
 
-
-if __name__ == '__main__':
-
-    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
-##    records_with_regex(infile)
-    text = prune_lines(infile)
-##    print(text)
+def main2(text):
     d = {}
     for line in text:
         if line.startswith('==='):
             if d:
                 print(d['time'])
-##            print(line)
+                write_csv(d, csvfile)
 
         elif line[0:6] == 'XXCOPY':
             parse_xxcopy_line(line, d)
             print (line)
         elif line:
             parse_field(line, d)
-
     if d:
         print(d['time'],d['Exit code'])
+        write_csv(d, csvfile)
 
-##    print(d)
-##    print(text)
+if __name__ == '__main__':
+
+    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
+    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
+    text = prune_lines(infile)
+    result = main2(text)
+    print(result)
+
