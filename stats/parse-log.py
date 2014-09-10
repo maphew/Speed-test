@@ -33,7 +33,7 @@ def recordsFromFile(inputFile):
     """
     record = ''
 ##    terminator = '=' * 20
-    terminator = '\n'
+    terminator = '\r\n\r\n' # with "\rn\r\n\" this is broken, it doesn't match :(
     for line in inputFile:
         if line.startswith('===') and record.endswith(terminator):
             yield record
