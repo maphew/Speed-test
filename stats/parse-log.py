@@ -33,52 +33,6 @@ def prune_lines(infile):
             result.append(line)
     return result
 
-def recordsFromFile(inputFile):
-    """
-    For us, a record is everthing between the line beginning with '=' and ends
-    with a closing brance and blank line.
-
-    <<<record begins:
-
-        ===============================================================================
-        ...snip...
-         Exit code             = 0 (No error, Successful operation)
-
-    /record ends>>>
-
-    It would be more robust to match " Exit code ... )\r\n". Perhaps a later
-    enhancement.
-
-    http://stackoverflow.com/questions/8131197/efficiently-parsing-a-large-text-file-in-python
-    """
-    record = ''
-##    terminator = '=' * 20
-    terminator = '\r\n\r\n' # with "\rn\r\n\" this is broken, it doesn't match :(
-    for line in inputFile:
-        if line.startswith('===') and record.endswith(terminator):
-            yield record
-            record = ''
-        record += line
-    yield record
-
-def records_with_regex(infile):
-    """ Attempt to use regular expressions to parse the records from the log """
-    f = open(infile, 'r')
-    text = f.read()
-    f.close()
-
-    regex = re.compile('''
-        ===*     # many equals
-        (.+?)    # everything, without being greedy
-        \n\n     # 2 newlines in a row
-    ''', re.MULTILINE)
-
-    regex = re.compile('(===*)(.+?)\n\n', re.DOTALL)
-
-    matches = [m.groups() for m in regex.finditer(text)]
-    for m in matches:
-        print(m)
-
 def parse_xxcopy_line(line, d):
     """ Extract xxcopy & windows version numbers, date & time from:
 
@@ -126,28 +80,7 @@ def write_csv(dic, csvfile):
     finally:
         f.close()
 
-def main():
-##    main()
-##    inputFile = open(r"b:\github\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log")
-    inputFile = open(r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log")
-    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
-    for record in recordsFromFile(inputFile):
-        print("\n***********************************\n %s" % record)
-        d = {} # new dict for each record
-        for line in (record.splitlines()):
-            if line[0:6] == "XXCOPY":
-                print(line)
-                parse_xxcopy_line(line,d)
-##                print(d['time'])
-            elif " = " in line:
-##                print(line)
-                parse_field(line,d)
-##            print(d['time'])
-        write_csv(d, csvfile)
-        print(d.keys())
-        print(d['time'])
-
-def main2(pruned_text):
+def main(pruned_text):
     """ Parse text list containing only data elements into field,value pairs,
         then write out to csv.
     """
@@ -178,6 +111,6 @@ if __name__ == '__main__':
     infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
     csvfile = r'b:\github\Speed-test\stats\from-py.csv'
     text = prune_lines(infile)
-    result = main2(text)
+    result = main(text)
     print(result)
 
