@@ -13,6 +13,26 @@ import csv
 import sys
 import re
 
+def prune_lines(infile):
+    """ Discard all lines which don't have the data we're after
+        Adapted from http://stackoverflow.com/questions/17131353/problems-targeting-carriage-return-and-newlines-with-regex-in-python
+    """
+    result = []
+    with open(infile, 'r') as text:
+        lines = text.readlines()
+    text.close()
+
+    for line in lines:
+        line = line.strip() # trim leading and trailing whitespace
+        # skip lines that don't contain "===", "XXCOPY" or " = "
+        if re.match('===*', line):
+            result.append(line)
+        elif re.match('^XXCOPY', line):
+            result.append(line)
+        elif re.match('^.+? = ', line):
+            result.append(line)
+    return result
+
 def recordsFromFile(inputFile):
     """
     For us, a record is everthing between the line beginning with '=' and ends
@@ -40,6 +60,24 @@ def recordsFromFile(inputFile):
             record = ''
         record += line
     yield record
+
+def records_with_regex(infile):
+    """ Attempt to use regular expressions to parse the records from the log """
+    f = open(infile, 'r')
+    text = f.read()
+    f.close()
+
+    regex = re.compile('''
+        ===*     # many equals
+        (.+?)    # everything, without being greedy
+        \n\n     # 2 newlines in a row
+    ''', re.MULTILINE)
+
+    regex = re.compile('(===*)(.+?)\n\n', re.DOTALL)
+
+    matches = [m.groups() for m in regex.finditer(text)]
+    for m in matches:
+        print(m)
 
 def parse_xxcopy_line(line, d):
     """ Extract xxcopy & windows version numbers, date & time from:
@@ -81,7 +119,7 @@ def write_csv(dic, csvfile):
     finally:
         f.close()
 
-if __name__ == '__main__':
+def main():
 ##    main()
 ##    inputFile = open(r"b:\github\Speed-test\stats\GEOMATT\server2drobo_diff-little_files.log")
     inputFile = open(r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log")
@@ -101,3 +139,24 @@ if __name__ == '__main__':
         write_csv(d, csvfile)
         print(d.keys())
         print(d['time'])
+
+
+if __name__ == '__main__':
+
+    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
+##    records_with_regex(infile)
+    text = prune_lines(infile)
+##    print(text)
+    d = {}
+    for line in text:
+        if line.startswith('==='):
+##            print(line)
+            pass
+        elif line[0:6] == 'XXCOPY':
+            parse_xxcopy_line(line, d)
+##            print (line)
+        elif line:
+            parse_field(line, d)
+##            print(line)
+
+    print(d)
