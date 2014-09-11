@@ -60,25 +60,32 @@ def parse_field(line, d):
         d[field.strip()] = value.strip()
     return d
 
-def write_csv(dic, csvfile):
+def append_csv(dic, csvfile):
     """ Append a dictionary to a CSV file.
 
-        In it's current state this duplicates header rows. Probable solution is
-        to read the existing csv first, append new data, then write all at once.
+        bug: some rows are
 
         Adapted from http://pymotw.com/2/csv/
     """
+    f_old = open(csvfile, 'rb')
+    csv_old = csv.DictReader(f_old)
 
-    f = open(csvfile, 'ab')
+    fpath, fname = os.path.split(csvfile)
+    csvfile_new = os.path.join(fpath, 'new_' + fname )
+    print(csvfile_new)
+    f = open(csvfile_new, 'wb')
 ##    print("in csv writer DIC (local) %s" % dic['time'])
 ##    print("in csv writer D (global) %s" % d['time'])
     try:
-        fieldnames = sorted(dic.keys())
+        fieldnames = sorted(set(dic.keys() + csv_old.fieldnames))
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         headers = dict( (n,n) for n in fieldnames )
         writer.writerow(headers)
+        for row in csv_old:
+            writer.writerow(row)
         writer.writerow(dic)
     finally:
+        f_old.close()
         f.close()
 
 def main(pruned_text):
@@ -92,7 +99,7 @@ def main(pruned_text):
             # so write out results from previous run before carrying on
             if d:
                 print(d['time'])
-                write_csv(d, csvfile)
+                append_csv(d, csvfile)
                 d = {} # ensure no old data is carried forward
 
         elif line[0:6] == 'XXCOPY':
@@ -105,15 +112,15 @@ def main(pruned_text):
     # ...and now write out results from the hindmost loop run
     if d:
         print(d['time'],d['Exit code'])
-        write_csv(d, csvfile)
+        append_csv(d, csvfile)
 
 if __name__ == '__main__':
-    infile = sys.argv[1]
-    csvfile = os.path.join(infile + '.csv')
+##    infile = sys.argv[1]
+##    csvfile = os.path.join(infile + '.csv')
+    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
+    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
     print(csvfile)
 
-##    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
-##    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
     text = prune_lines(infile)
     result = main(text)
     print(result)
