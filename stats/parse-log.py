@@ -13,6 +13,7 @@ import csv
 import re
 import sys
 import os
+import fileinput
 
 def prune_lines(infile):
     """ Discard all lines which don't have the data we're after
@@ -60,7 +61,7 @@ def parse_field(line, d):
         d[field.strip()] = value.strip()
     return d
 
-def append_csv(dic, csvfile):
+def write_csv(dic, csvfile):
     """ Append a dictionary to a CSV file.
 
         bug: some rows are
@@ -87,6 +88,7 @@ def append_csv(dic, csvfile):
     finally:
         f_old.close()
         f.close()
+    return csvfile_new
 
 def main(pruned_text):
     """ Parse text list containing only data elements into field,value pairs,
@@ -99,7 +101,7 @@ def main(pruned_text):
             # so write out results from previous run before carrying on
             if d:
                 print(d['time'])
-                append_csv(d, csvfile)
+                write_csv(d, csvfile)
                 d = {} # ensure no old data is carried forward
 
         elif line[0:6] == 'XXCOPY':
@@ -112,7 +114,18 @@ def main(pruned_text):
     # ...and now write out results from the hindmost loop run
     if d:
         print(d['time'],d['Exit code'])
-        append_csv(d, csvfile)
+        write_csv(d, csvfile)
+
+def remove_dupes(a_file):
+    """ Remove duplicate rows from a file
+        from http://stackoverflow.com/questions/15741564/removing-duplicate-rows-from-a-csv-file-using-a-python-script
+    """
+    seen = set()
+    for line in fileinput.FileInput(a_file, inplace=1):
+        if line in seen:
+            continue
+        seen.add(line)
+        print line,
 
 if __name__ == '__main__':
 ##    infile = sys.argv[1]
@@ -122,6 +135,6 @@ if __name__ == '__main__':
     print(csvfile)
 
     text = prune_lines(infile)
-    result = main(text)
-    print(result)
+    csvfile_updated = main(text)
+    remove_dupes(r'B:\GitHub\Speed-test\stats\new_from-py.csv')
 
