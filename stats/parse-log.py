@@ -72,7 +72,7 @@ def write_csv(dic, csvfile, out_csvfile):
 ##    fpath, fname = os.path.split(csvfile)
 ##    csvfile_new = os.path.join(fpath, 'new_' + fname )
 ##    print(csvfile_new)
-    f = open(out_csvfile, 'wb')
+    f = open(out_csvfile, 'ab')
 ##    print("in csv writer DIC (local) %s" % dic['time'])
 ##    print("in csv writer D (global) %s" % d['time'])
     try:
@@ -128,10 +128,10 @@ def remove_dupes(a_file):
 if __name__ == '__main__':
     infile = sys.argv[1]
     csvfile = os.path.join(infile + '.csv')
-    out_csvfile = os.path.join(infile + '.tmp.csv')
 ##    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
 ##    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
-    print(csvfile)
+    out_csvfile = r'b:\github\Speed-test\stats\from-py_out.csv'
+    print(csvfile, out_csvfile)
 
     text = prune_lines(infile)
     main(text)
