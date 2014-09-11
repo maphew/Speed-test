@@ -61,20 +61,18 @@ def parse_field(line, d):
         d[field.strip()] = value.strip()
     return d
 
-def write_csv(dic, csvfile):
+def write_csv(dic, csvfile, out_csvfile):
     """ Append a dictionary to a CSV file.
-
-        bug: some rows are
 
         Adapted from http://pymotw.com/2/csv/
     """
     f_old = open(csvfile, 'rb')
     csv_old = csv.DictReader(f_old)
 
-    fpath, fname = os.path.split(csvfile)
-    csvfile_new = os.path.join(fpath, 'new_' + fname )
-    print(csvfile_new)
-    f = open(csvfile_new, 'wb')
+##    fpath, fname = os.path.split(csvfile)
+##    csvfile_new = os.path.join(fpath, 'new_' + fname )
+##    print(csvfile_new)
+    f = open(out_csvfile, 'wb')
 ##    print("in csv writer DIC (local) %s" % dic['time'])
 ##    print("in csv writer D (global) %s" % d['time'])
     try:
@@ -88,7 +86,7 @@ def write_csv(dic, csvfile):
     finally:
         f_old.close()
         f.close()
-    return csvfile_new
+    return
 
 def main(pruned_text):
     """ Parse text list containing only data elements into field,value pairs,
@@ -101,7 +99,7 @@ def main(pruned_text):
             # so write out results from previous run before carrying on
             if d:
                 print(d['time'])
-                write_csv(d, csvfile)
+                write_csv(d, csvfile, out_csvfile)
                 d = {} # ensure no old data is carried forward
 
         elif line[0:6] == 'XXCOPY':
@@ -114,7 +112,7 @@ def main(pruned_text):
     # ...and now write out results from the hindmost loop run
     if d:
         print(d['time'],d['Exit code'])
-        write_csv(d, csvfile)
+        write_csv(d, csvfile, out_csvfile)
 
 def remove_dupes(a_file):
     """ Remove duplicate rows from a file
@@ -128,13 +126,14 @@ def remove_dupes(a_file):
         print line,
 
 if __name__ == '__main__':
-##    infile = sys.argv[1]
-##    csvfile = os.path.join(infile + '.csv')
-    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
-    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
+    infile = sys.argv[1]
+    csvfile = os.path.join(infile + '.csv')
+    out_csvfile = os.path.join(infile + '.tmp.csv')
+##    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
+##    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
     print(csvfile)
 
     text = prune_lines(infile)
-    csvfile_updated = main(text)
-    remove_dupes(r'B:\GitHub\Speed-test\stats\new_from-py.csv')
+    main(text)
+    remove_dupes(out_csvfile)
 
