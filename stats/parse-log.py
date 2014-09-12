@@ -66,8 +66,18 @@ def write_csv(dic, csvfile, out_csvfile):
 
         Adapted from http://pymotw.com/2/csv/
     """
+
+    # create dummy file if old csv not present
+    if not os.path.exists(csvfile):
+        open(csvfile, 'a').close()
+
     f_old = open(csvfile, 'rb')
     csv_old = csv.DictReader(f_old)
+
+    csv_old_fieldnames = ['']
+    if csv_old.fieldnames:
+        csv_old_fieldnames = csv_old.fieldnames
+
 
 ##    fpath, fname = os.path.split(csvfile)
 ##    csvfile_new = os.path.join(fpath, 'new_' + fname )
@@ -76,7 +86,7 @@ def write_csv(dic, csvfile, out_csvfile):
 ##    print("in csv writer DIC (local) %s" % dic['time'])
 ##    print("in csv writer D (global) %s" % d['time'])
     try:
-        fieldnames = sorted(set(dic.keys() + csv_old.fieldnames))
+        fieldnames = sorted(set(dic.keys() + csv_old_fieldnames))
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         headers = dict( (n,n) for n in fieldnames )
         writer.writerow(headers)
@@ -128,9 +138,11 @@ def remove_dupes(a_file):
 if __name__ == '__main__':
     infile = sys.argv[1]
     csvfile = os.path.join(infile + '.csv')
+    out_csvfile = sys.argv[2]
+##    out_csvfile = os.path.join(infile + '.tmp.csv')
 ##    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
 ##    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
-    out_csvfile = r'b:\github\Speed-test\stats\from-py_out.csv'
+##    out_csvfile = r'b:\github\Speed-test\stats\from-py_out.csv'
     print(csvfile, out_csvfile)
 
     text = prune_lines(infile)
