@@ -1,6 +1,9 @@
 #-------------------------------------------------------------------------------
 # Name:        parse_xxcopy_logfile
-# Purpose:
+# Purpose:     A python script to parse statistics from xxcopy logfiles and
+#              write them to a .csv file.
+#
+#              Part of https://github.com/maphew/Speed-test
 #
 # Author:      Matt Wilkie
 #
@@ -139,10 +142,6 @@ if __name__ == '__main__':
     infile = sys.argv[1]
     csvfile = os.path.join(infile + '.csv')
     out_csvfile = sys.argv[2]
-##    out_csvfile = os.path.join(infile + '.tmp.csv')
-##    infile = r"D:\speed-test\stats\ENV-Y209103\local2NAS-local-user-raid10_diff-little_files.log"
-##    csvfile = r'b:\github\Speed-test\stats\from-py.csv'
-##    out_csvfile = r'b:\github\Speed-test\stats\from-py_out.csv'
     print(csvfile, out_csvfile)
 
     text = prune_lines(infile)

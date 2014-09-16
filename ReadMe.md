@@ -105,9 +105,6 @@ A better than xcopy and robocopy commandline copy program. Chosen for this proje
 
 As distributed here, it's set for 64bit. If you're on 32bit Windows simply copy the contents  of `bin\xxcopy_32bit` to `bin\`, overwriting all. (After which the xxcopy_* subfolders can be freely deleted).
 
-### grep, tail
-
-Taken from [GNU utilities for Win32](http://unxutils.sourceforge.net/). Not needed for running the speed-test itself. Used for parsing the log files into statistics.  
 
 
 

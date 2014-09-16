@@ -29,3 +29,9 @@ becomes
 
     Destination directory,Directories Processed,Total Data in Bytes
     R:\speed-test\big_files\,1,"527,331,269"
+
+
+
+-----
+*Part of https://github.com/maphew/Speed-test*
+
